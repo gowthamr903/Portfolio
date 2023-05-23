@@ -680,11 +680,34 @@
             </select>
           </div>
 
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Preview</h4>
+      </div> -->
+      <div class="modal-body">
+       <video id="video_view" style="width:100%" autoplay controls></video>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
           <!-- portolio wrapper -->
           <div class="row portfolio-wrapper">
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item creative design">
-              <a href="video/Vr/Car_tagging/video.mp4" class="work-video">
+              <a  data-href="video/Vr/Car_tagging/video.mp4" class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">VR</span>
@@ -705,7 +728,7 @@
             </div>
 
             <div class="col-md-4 col-sm-6 grid-item creative design">
-              <a href="video/Vr/Turbine/video.mp4" class="work-video">
+              <a data-href="video/Vr/Turbine/video.mp4" class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">VR</span>
@@ -728,7 +751,7 @@
 
 			
             <div class="col-md-4 col-sm-6 grid-item creative design">
-				<a href="video/Ar/VirtualTryOn/plant_section_view.mp4" class="work-video">
+				<a data-href="video/Ar/VirtualTryOn/plant_section_view.mp4" class="work-video">
 				  <div class="portfolio-item rounded shadow-dark">
 					<div class="details">
 					  <span class="term">VR</span>
@@ -756,7 +779,8 @@
 
             <div class="col-md-4 col-sm-6 grid-item branding">
               <a
-                href="video/Ar/VirtualTryOn/GlassFrames.mp4"
+			  data-href="video/Ar/VirtualTryOn/GlassFrames.mp4"
+			  data-view="vertical"
                 class="work-video"
               >
                 <div class="portfolio-item rounded shadow-dark">
@@ -781,7 +805,7 @@
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item branding">
               <a
-                href="video/Ar/VirtualTryOn/ARTieColors.mp4"
+			  data-href="video/Ar/VirtualTryOn/ARTieColors.mp4"
                 class="work-video"
               >
                 <div class="portfolio-item rounded shadow-dark">
@@ -805,7 +829,8 @@
 
 			<div class="col-md-4 col-sm-6 grid-item branding">
 				<a
-				  href="video/Ar/VirtualTryOn/VirtualTryOn.mp4"
+				data-href="video/Ar/VirtualTryOn/VirtualTryOn.mp4"
+				data-view="vertical"
 				  class="work-video"
 				>
 				  <div class="portfolio-item rounded shadow-dark">
@@ -831,7 +856,7 @@
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item branding">
               <a
-                href="video/Ar/VirtualTryOn/Variantcolors.mp4"
+			  data-href="video/Ar/VirtualTryOn/Variantcolors.mp4"
                 class="work-video"
               >
                 <div class="portfolio-item rounded shadow-dark">
@@ -855,7 +880,7 @@
 
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item branding">
-              <a href="video/Ar/Bank_Chart/video.mp4" class="work-video">
+              <a data-href="video/Ar/Bank_Chart/video.mp4" class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">AR</span>
@@ -877,7 +902,7 @@
 
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item creative">
-              <a href="video/Vr/Simulation/video.mp4" class="work-video">
+              <a data-href="video/Vr/Simulation/video.mp4" class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">AR</span>
@@ -899,7 +924,9 @@
 
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item branding">
-              <a href="video/Ar/Image_Recognise/video-1.mp4" class="work-video">
+              <a data-href="video/Ar/Image_Recognise/video-1.mp4" 
+			  data-view="vertical" 
+			  class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">AR</span>
@@ -920,7 +947,9 @@
             </div>
 
             <div class="col-md-4 col-sm-6 grid-item branding">
-              <a href="video/Ar/Indoo_Placing/video.mp4" class="work-video">
+              <a data-href="video/Ar/Indoo_Placing/video.mp4"
+			  data-view="vertical" 
+			  class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">AR</span>
@@ -941,7 +970,9 @@
             </div>
 
             <div class="col-md-4 col-sm-6 grid-item branding">
-              <a href="video/Ar/Indoor_Navigation/video.mp4" class="work-video">
+              <a data-href="video/Ar/Indoor_Navigation/video.mp4" 
+			  data-view="horizontal" class="work-video">
+
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">AR</span>
@@ -962,7 +993,9 @@
             </div>
 
             <div class="col-md-4 col-sm-6 grid-item branding">
-              <a href="video/Ar/Indoor_Workarea/video.mp4" class="work-video">
+              <a data-href="video/Ar/Indoor_Workarea/video.mp4"
+			  data-view="vertical" 
+			   class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">AR</span>
@@ -983,7 +1016,10 @@
             </div>
 
             <div class="col-md-4 col-sm-6 grid-item branding">
-              <a href="video/Ar/Furniture/video.mp4" class="work-video">
+              <a data-href="video/Ar/Furniture/video.mp4" 
+			  data-view="vertical"
+			   class="work-video">
+
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">AR</span>
@@ -1005,7 +1041,7 @@
 
             <div class="col-md-4 col-sm-6 grid-item creative">
               <a
-                href="https://www.youtube.com/watch?v=80xXg-pJLuI"
+			  data-href="https://www.youtube.com/watch?v=80xXg-pJLuI"
                 class="work-video"
               >
                 <div class="portfolio-item rounded shadow-dark">
@@ -1025,7 +1061,7 @@
             </div>
 
             <div class="col-md-4 col-sm-6 grid-item art">
-              <a href="video/360/video.mp4" class="work-video">
+              <a data-href="video/360/video.mp4" class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">360</span>
@@ -1043,7 +1079,7 @@
             </div>
 
             <div class="col-md-4 col-sm-6 grid-item game">
-              <a href="video/Game/CarPlay.mp4" class="work-video">
+              <a data-href="video/Game/CarPlay.mp4" class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">Gaming</span>
@@ -1064,7 +1100,7 @@
             </div>
 
             <div class="col-md-4 col-sm-6 grid-item game">
-              <a href="video/Game/CharacterPlay.mp4" class="work-video">
+              <a data-href="video/Game/CharacterPlay.mp4" class="work-video">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
                     <span class="term">Gaming</span>
